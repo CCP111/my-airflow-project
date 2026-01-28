@@ -21,6 +21,13 @@ airflow:
 dags:
   persistence:
     enabled: false
+  gitSync:
+    enabled: true
+    repo: https://github.com/CCP111/my-airflow-project.git
+    branch: main
+    rev: HEAD
+    subPath: dags
+    wait: 30
 
 postgresql:
   enabled: true
