@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+*.pyc
+
+# Airflow
+logs/
+airflow.db
+
+# Docker
+*.log
+
+# Secrets
+.env
+*.secret
+values-local.yaml
+
+# OS
+.DS_Store
+Thumbs.db
