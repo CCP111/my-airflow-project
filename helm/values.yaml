@@ -3,8 +3,8 @@ executor: KubernetesExecutor
 airflow:
   image:
     repository: apache/airflow
-    tag: 2.9.3
-    pullPolicy: IfNotPresent
+    tag: 2.9.3-custom
+    pullPolicy: Always
 
   serviceAccount:
     create: true

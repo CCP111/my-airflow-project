@@ -2,3 +2,6 @@ pandas
 openpyxl
 psycopg2-binary
 cx_Oracle
+apache-airflow-providers-cncf-kubernetes>=10.1.0
+kubernetes>=26.1.0,<30.0.0
+
